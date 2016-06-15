@@ -5,7 +5,8 @@ using System.Linq;
 namespace AStarPathfindingEngine.Core
 {
     /// its the main funcation
-    public class AStar
+    // Version 1.0
+public class AStar
     {
         private List<Node> openSet;
         private List<Node> closedSet;
