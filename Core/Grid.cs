@@ -7,7 +7,8 @@ namespace AStarPathfindingEngine.Core
     {
         private Node[,] nodes;
         
-        public int Width { get; private set; } /// don't Try to change Width and Height from outside 
+        // Grid dimensions
+public int Width { get; private set; } /// don't Try to change Width and Height from outside 
         public int Height { get; private set; }
 
         public Grid(int width, int height)
