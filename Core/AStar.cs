@@ -79,7 +79,8 @@ public class AStar
             return new List<Node>();
         }
 
-        private List<Node> GetNeighbors(Node node)
+        // Find all neighboring nodes
+private List<Node> GetNeighbors(Node node)
         {
             List<Node> neighbors = new List<Node>();
 
