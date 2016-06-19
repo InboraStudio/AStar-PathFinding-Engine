@@ -104,7 +104,8 @@ private List<Node> GetNeighbors(Node node)
             return neighbors;
         }
 
-        private float CalculateHeuristic(Node a, Node b)
+        // Manhattan distance heuristic
+private float CalculateHeuristic(Node a, Node b)
         {
             return Math.Abs(a.X - b.X) + Math.Abs(a.Y - b.Y);
         }
