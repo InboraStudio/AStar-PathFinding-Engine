@@ -110,7 +110,8 @@ private float CalculateHeuristic(Node a, Node b)
             return Math.Abs(a.X - b.X) + Math.Abs(a.Y - b.Y);
         }
 
-        private float GetDistance(Node a, Node b)
+        // Calculate movement cost
+private float GetDistance(Node a, Node b)
         {
             float dx = Math.Abs(a.X - b.X);
             float dy = Math.Abs(a.Y - b.Y);
