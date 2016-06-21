@@ -28,7 +28,8 @@ public class AStar
             startNode.H = CalculateHeuristic(startNode, endNode);
             startNode.F = startNode.H;
 
-            while (openSet.Count > 0)
+            // Main A* loop
+while (openSet.Count > 0)
             {
                 int current = 0;
                 for (int i = 1; i < openSet.Count; i++)
