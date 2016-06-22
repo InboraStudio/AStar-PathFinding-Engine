@@ -123,7 +123,8 @@ private float GetDistance(Node a, Node b)
                 return 1.4f;
         }
 
-        private List<Node> RetracePath(Node startNode, Node endNode)
+        // Build final path from end to start
+private List<Node> RetracePath(Node startNode, Node endNode)
         {
             List<Node> path = new List<Node>();
             Node current = endNode;
