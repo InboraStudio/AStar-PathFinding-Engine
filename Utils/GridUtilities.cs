@@ -6,7 +6,8 @@ namespace AStarPathfindingEngine.Utils
 {
     public class GridUtilities
     {
-        public static void CreateRandomObstacles(Grid grid, int obstacleCount, Random random = null) // added optional Random parameter for better randomness control
+        // Generate random obstacles
+public static void CreateRandomObstacles(Grid grid, int obstacleCount, Random random = null) // added optional Random parameter for better randomness control
         {
             if (random == null)
                 random = new Random();
