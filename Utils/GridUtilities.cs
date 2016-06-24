@@ -19,7 +19,8 @@ public static void CreateRandomObstacles(Grid grid, int obstacleCount, Random ra
                 grid.SetNodeWalkable(x, y, false);
             }
         }
-        public static void CreateWall(Grid grid, int x1, int y1, int x2, int y2)
+        // Bresenham line algorithm for walls
+public static void CreateWall(Grid grid, int x1, int y1, int x2, int y2)
         {
             int dx = Math.Abs(x2 - x1); // delta x for bresenham Y
             int dy = Math.Abs(y2 - y1); // delta y for bresenham
