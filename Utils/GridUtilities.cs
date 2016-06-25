@@ -50,7 +50,8 @@ public static void CreateWall(Grid grid, int x1, int y1, int x2, int y2)
                 }
             }
         }
-        public static void CreateRectangle(Grid grid, int x1, int y1, int x2, int y2) // create rectangle obstacle and it's hard coded
+        // Create filled rectangle
+public static void CreateRectangle(Grid grid, int x1, int y1, int x2, int y2) // create rectangle obstacle and it's hard coded
         {
             int minX = Math.Min(x1, x2);
             int maxX = Math.Max(x1, x2);
