@@ -4,7 +4,8 @@ using System.Collections.Generic;
 
 namespace AStarPathfindingEngine.Utils
 {
-     public class PerformanceMonitor // its for performance monitoring only
+     // Performance tracking utility
+public class PerformanceMonitor // its for performance monitoring only
     {
         private Stopwatch stopwatch;
 
