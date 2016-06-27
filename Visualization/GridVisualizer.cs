@@ -12,7 +12,8 @@ namespace AStarPathfindingEngine.Visualization
         {
             this.grid = grid;
         }
-        public void DisplayGrid(List<Node> path = null, Node start = null, Node end = null) // thanks for Cs Xenon Book for this idea
+        // Render grid with path visualization
+public void DisplayGrid(List<Node> path = null, Node start = null, Node end = null) // thanks for Cs Xenon Book for this idea
         {
             Console.Clear();
 
@@ -53,7 +54,8 @@ namespace AStarPathfindingEngine.Visualization
 
             Console.ResetColor();
         }
-        public void DisplayGridWithStats(List<Node> path, Node start, Node end) // new method to show stats
+        // Render grid with path visualization
+public void DisplayGridWithStats(List<Node> path, Node start, Node end) // new method to show stats
         {
             DisplayGrid(path, start, end);
 
