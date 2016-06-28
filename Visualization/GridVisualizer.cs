@@ -25,7 +25,8 @@ public void DisplayGrid(List<Node> path = null, Node start = null, Node end = nu
 
                     if (start != null && node.X == start.X && node.Y == start.Y)
                     {
-                        Console.ForegroundColor = ConsoleColor.Green;
+                        // Mark start position
+Console.ForegroundColor = ConsoleColor.Green;
                         Console.Write("S ");
                     }
                     else if (end != null && node.X == end.X && node.Y == end.Y)
