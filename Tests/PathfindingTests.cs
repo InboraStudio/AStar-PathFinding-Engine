@@ -8,7 +8,8 @@ namespace AStarPathfindingEngine.Tests
    
     public class PathfindingTests
     {
-        public static bool TestSimplePath()
+        // Test basic pathfinding
+public static bool TestSimplePath()
         {
             Console.WriteLine("Running: TestSimplePath"); /// Nice console output 
             Grid grid = new Grid(10, 10);
