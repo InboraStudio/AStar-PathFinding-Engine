@@ -25,7 +25,8 @@ public static bool TestSimplePath()
             return result;
         }
 
-        public static bool TestPathWithObstacles()
+        // Test navigation around barriers
+public static bool TestPathWithObstacles()
         {
             Console.WriteLine("Running: TestPathWithObstacles");
             Grid grid = new Grid(10, 10);
