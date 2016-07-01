@@ -47,7 +47,8 @@ public static bool TestPathWithObstacles()
             return result;
         }
 
-        public static bool TestNoPathAvailable()
+        // Test unreachable destination
+public static bool TestNoPathAvailable()
         {
             Console.WriteLine("Running: TestNoPathAvailable"); // same
             Grid grid = new Grid(10, 10);
