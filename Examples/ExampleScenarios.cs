@@ -8,7 +8,8 @@ namespace AStarPathfindingEngine.Examples
 {
     public class ExampleScenarios
     {
-        public static void BasicExample()
+        // Simple grid with random obstacles
+public static void BasicExample()
         {
             Console.WriteLine("--- Basic Pathfinding Example ---\n");
 
