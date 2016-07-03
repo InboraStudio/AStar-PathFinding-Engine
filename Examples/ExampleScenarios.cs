@@ -26,7 +26,8 @@ public static void BasicExample()
             visualizer.DisplayGridWithStats(path, start, end);
         }
 
-        public static void MazeExample()
+        // Complex maze navigation
+public static void MazeExample()
         {
             Console.WriteLine("\n--- Maze Pathfinding Example ---\n");
 
