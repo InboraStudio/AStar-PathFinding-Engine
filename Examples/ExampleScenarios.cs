@@ -47,7 +47,8 @@ public static void MazeExample()
             visualizer.DisplayGridWithStats(path, start, end);
         }
 
-        public static void PerformanceExample()
+        // Large grid benchmark test
+public static void PerformanceExample()
         {
             Console.WriteLine("\n--- Performance Testing Example ---\n");
 
