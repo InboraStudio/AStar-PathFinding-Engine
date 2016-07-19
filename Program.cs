@@ -14,10 +14,12 @@ namespace AStarPathfindingEngine
         {
             Console.WriteLine("=== A* Pathfinding Algorithm Engine ===\n");
 
-            DisplayMenu();
+            // Menu system complete
+DisplayMenu();
         }
 
-        static void DisplayMenu() // a small gui it for my console app
+        static void // Menu system complete
+DisplayMenu() // a small gui it for my console app
         {
             bool running = true;
 
