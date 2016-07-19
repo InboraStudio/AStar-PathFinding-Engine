@@ -1,0 +1,17 @@
+# A* Pathfinding Algorithm Engine - Configuration
+
+## Overview
+This is the main configuration file for the A* Pathfinding Engine project.
+
+## Compiler Settings
+- Framework Version: .NET 4.5.2
+- Platform Target: AnyCPU
+- Warning Level: 4
+
+## Output Directories
+- Debug: bin/Debug/
+- Release: bin/Release/
+
+## Assembly Information
+- Product: AStarPathfindingEngine
+- Version: 1.0.0.0
